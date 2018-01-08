@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<bean name="startQuertz" lazy-init="false" autowire="no" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    	<property name="triggers">
+    		<list>
+                <!-- 定时器测试 -->			
+               	<!-- <ref bean="test_JobTrigger" /> -->
+    		</list>
+    	</property>
+    </bean>
+    
+    <!-- 项目延期系统任务begin -->
+    <!-- <bean id="deferJobTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="deferJobDetail" />
+		<property name="cronExpression" value="0 0/30 * * * ? " />三十分钟执行一次
+		<property name="startDelay" value="10" />系统启动延迟5秒执行
+	</bean>
+	
+	<bean id="deferJobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+        <property name="targetObject" ref="deferJob" />  
+        <property name="targetMethod" value="startDeferUpdateData" />
+    </bean> -->
+    <!-- 项目延期系统任务end -->
+    
+    <!-- start -->
+    <bean id="test_JobTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="test_JobDetail" />
+		<property name="cronExpression" value="0/10 * * *  * ?" />
+		<property name="startDelay" value="5000" />
+	</bean>
+	
+	<bean id="test_JobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+        <property name="targetObject" ref="test_Job" />  
+        <property name="targetMethod" value="startMethod" />
+    </bean>
+    <!-- end -->
+    
+    <bean id="test_Job" class="com.ruiec.web.job.AaTestJob"></bean>
+</beans>    
