@@ -20,9 +20,6 @@ import com.ruiec.web.common.Setting;
 
 /**
  * 
- * 版权所有：深圳源中瑞科技有限公司<br>
- * 网 址：www.ruiec.com<br>
- * 电 话：0755-33581131<br><br>
  * 
  * 系统配置参数工具类
  * @author 肖学良<br>

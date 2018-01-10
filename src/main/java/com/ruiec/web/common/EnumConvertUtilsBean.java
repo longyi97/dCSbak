@@ -5,9 +5,6 @@ import org.apache.commons.beanutils.Converter;
 import org.apache.commons.beanutils.converters.ArrayConverter;
 /**
  * 
- * 版权所有：深圳源中瑞科技有限公司<br>
- * 网 址：www.ruiec.com<br>
- * 电 话：0755-33581131<br><br>
  * 
  * 使用包装模式 增强ConvertUtilsBean可以处理枚举和枚举数组
  * @author 肖学良<br>
