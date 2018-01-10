@@ -5,7 +5,6 @@ import java.io.Serializable;
 import net.sf.json.JSONObject;
 /**
  * 下发反馈json
- * @author qinzhitian<br>
  * @date 2017年12月8日 下午9:01:16
  */
 public class IssuedJSONDTO implements Serializable{

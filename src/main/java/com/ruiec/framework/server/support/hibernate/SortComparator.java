@@ -7,7 +7,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 实体比较器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年1月4日
  */

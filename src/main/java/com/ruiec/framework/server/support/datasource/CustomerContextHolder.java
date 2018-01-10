@@ -1,7 +1,6 @@
 package com.ruiec.framework.server.support.datasource;
 /**
  * 
- * @author Xxl<br>
  * 数据源切换工具类(线程安全)
  */
 public abstract class CustomerContextHolder {

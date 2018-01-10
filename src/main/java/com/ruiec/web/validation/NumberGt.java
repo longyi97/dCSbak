@@ -12,7 +12,6 @@ import javax.validation.Payload;
  * 
  * 
  * 两字段比较数据大小验证注解
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年3月23日
  */
@@ -26,13 +25,11 @@ public @interface NumberGt {
     Class<? extends Payload>[] payload() default {};
     /**
      * 较大数
-     * @author 肖学良<br>
      * Date: 2015年3月23日
      */
     String theOne();
     /**
      * 较小数
-     * @author 肖学良<br>
      * Date: 2015年3月23日
      */
     String theOther();

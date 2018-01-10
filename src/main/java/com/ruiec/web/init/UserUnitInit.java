@@ -22,7 +22,6 @@ import com.ruiec.web.service.UserUnitService;
 
 /**
  * 管理员管理单位初始化
- * @author Senghor<br>
  * @date 2017年12月18日 上午11:20:30
  */
 public class UserUnitInit implements ApplicationListener<ContextRefreshedEvent> {

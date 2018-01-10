@@ -5,7 +5,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 /**
  * 轨迹数据API接口配置
  * 
- * @author bingo<br>
  * @date 2017年12月26日 下午3:24:02
  */
 public class APIConfig extends BaseEntity {

@@ -17,7 +17,6 @@ import com.ruiec.web.common.RedirectDestination;
  * 
  * 
  * 前台基础控制器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月24日
  */
@@ -41,7 +40,6 @@ public class BaseHomeController {
 
 	/**
 	 * 注册数据转换器
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	@InitBinder
@@ -52,7 +50,6 @@ public class BaseHomeController {
 
 	/**
 	 * 获取跳转对象
-	 * @author 肖学良<br>
 	 * Date: 2016年1月6日
 	 */
 	protected RedirectDestination getRedirectDestination() {
@@ -62,7 +59,6 @@ public class BaseHomeController {
 	
 	/**
 	 * 统一异常处理
-	 * @author 肖学良<br>
 	 * Date: 2016年1月6日
 	 */
 	@ExceptionHandler(Throwable.class)
@@ -73,7 +69,6 @@ public class BaseHomeController {
 	
 	/**
 	 * 添加request域错误信息
-	 * @author 肖学良<br>
 	 * Date: 2016年1月7日
 	 */
 	protected void addErrorMessageToRequestScope(String message){
@@ -83,7 +78,6 @@ public class BaseHomeController {
 	
 	/**
 	 * 添加session域错误信息
-	 * @author 肖学良<br>
 	 * Date: 2016年1月7日
 	 */
 	protected void addErrorMessageToSessionScope(String message){

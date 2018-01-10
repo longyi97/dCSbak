@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * 排序组装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月24日
  */
@@ -18,7 +17,6 @@ public class SortBuilder implements Serializable {
 	
 	/**
 	 * 添加排序
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public SortBuilder add(Sort sort){
@@ -27,7 +25,6 @@ public class SortBuilder implements Serializable {
 	}
 	/**
 	 * 返回排序
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public List<Sort> build(){

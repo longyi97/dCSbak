@@ -14,7 +14,6 @@ import com.ruiec.web.util.CookieUtils;
 
 /**
  * 令牌拦截器, 此拦截器将可以避免站点遭受跨站请求伪造(CSRF)的攻击
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年03月04日
  */

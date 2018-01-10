@@ -8,7 +8,6 @@ import com.ruiec.web.entity.Unit;
 
 /**
  * 重点人员查询条件
- * @author Senghor<br>
  * @date 2017年12月13日 下午7:39:39
  */
 public class ControlPersonDTO implements Serializable{

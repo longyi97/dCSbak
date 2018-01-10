@@ -8,14 +8,12 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 语言处理工具类
- * @author 刘立雯
  * Date：2016年09月12日
  */
 public class ProcessLanguageUtil {
 
 	/**
 	 * 获取国际化参数
-	 * @author 刘立雯
 	 * Date: 2016年09月09日
 	 * @throws IOException 
 	 * @throws FileNotFoundException 

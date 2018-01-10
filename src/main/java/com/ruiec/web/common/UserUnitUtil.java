@@ -11,7 +11,6 @@ import java.util.Map;
  * id:单位id<br>
  * unitRank:单位级别<br>
  * unitName:单位名称<br>
- * @author Senghor<br>
  * @date 2017年12月18日 上午10:34:33
  */
 public class UserUnitUtil {

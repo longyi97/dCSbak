@@ -21,7 +21,6 @@ import org.hibernate.annotations.Parameter;
 
 /**
  * 重点人员扩展实体
- * @author Senghor<br>
  * @date 2017年12月1日 上午11:01:12
  */
 @Entity

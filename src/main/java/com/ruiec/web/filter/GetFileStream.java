@@ -22,7 +22,6 @@ import com.ruiec.web.common.CommonParam;
 
 /**
  * 接收文件过滤器
- * @author 刘立雯
  * Date：2016年09月20日
  */
 public class GetFileStream implements Filter{

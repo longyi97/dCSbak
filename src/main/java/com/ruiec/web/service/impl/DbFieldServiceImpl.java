@@ -8,7 +8,6 @@ import com.ruiec.web.service.DbFieldService;
 
 /**
  * 数据导入字段服务实现类
- * @author qinzhitian<br>
  * @date 2017年12月18日 下午4:49:03
  */
 @Service("dbFieldServiceImpl")

@@ -3,7 +3,6 @@ package com.ruiec.framework.server.support.hibernate;
 
 /**
  * 动态sql替换数据封装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月11日
  */
@@ -21,7 +20,6 @@ public class TableNameInfo {
 
 	/**
 	 * 将被替换的表名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月8日
 	 */
 	public String getFrom() {
@@ -31,7 +29,6 @@ public class TableNameInfo {
 
 	/**
 	 * 将被替换的表名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月8日
 	 */
 	public void setFrom(String from) {
@@ -41,7 +38,6 @@ public class TableNameInfo {
 
 	/**
 	 * 替换后的表名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月8日
 	 */
 	public String getTo() {
@@ -51,7 +47,6 @@ public class TableNameInfo {
 
 	/**
 	 * 替换后的表名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月8日
 	 */
 	public void setTo(String to) {
@@ -60,7 +55,6 @@ public class TableNameInfo {
 	
 	/*
 	 * 重写equals方法
-	 * @author 杨龙香<br>
 	 * Date: 2016年06月22日
 	 */
 	@Override
@@ -74,7 +68,6 @@ public class TableNameInfo {
 	
 	/*
 	 * 重写hashCode方法
-	 * @author 杨龙香<br>
 	 * Date: 2016年06月22日
 	 */
 	@Override

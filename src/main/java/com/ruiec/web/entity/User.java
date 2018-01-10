@@ -12,7 +12,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 /**
  * 警员信息实体
  * 
- * @author 陈靖原<br>
  * @date 2017年11月28日 下午5:03:52
  */
 @Entity

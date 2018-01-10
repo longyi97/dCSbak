@@ -34,7 +34,6 @@ import com.ruiec.web.util.DateUtil;
 
 /**
  * 重点人员服务接口实现类
- * @author Senghor<br>
  * @date 2017年11月30日 上午9:01:37
  */
 @Service("controlPersonServiceImpl")
@@ -51,7 +50,6 @@ public class ControlPersonServiceImpl extends BaseServiceImpl<ControlPerson, Str
 
 	/**
 	 * 根据条件查询page返回页面
-	 * @author Senghor<br>
 	 * @date 2017年12月22日 下午1:43:46
 	 */
 	@Override
@@ -157,7 +155,6 @@ public class ControlPersonServiceImpl extends BaseServiceImpl<ControlPerson, Str
 	
 	/**
 	 * 保存重点人数据
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 上午10:10:12
 	 */
 	@Override
@@ -197,7 +194,6 @@ public class ControlPersonServiceImpl extends BaseServiceImpl<ControlPerson, Str
 	
 	/**
 	 * 保存重点人员修改信息
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 上午10:10:12
 	 */
 	@Override
@@ -232,7 +228,6 @@ public class ControlPersonServiceImpl extends BaseServiceImpl<ControlPerson, Str
 	}
 	/**
 	 * 根据单位id获取下级所有id
-	 * @author Senghor<br>
 	 * @date 2017年12月20日 下午10:24:24
 	 */
 	private List<Integer> getAdminUnits(Integer unitId) {
@@ -249,7 +244,6 @@ public class ControlPersonServiceImpl extends BaseServiceImpl<ControlPerson, Str
 	/**
 	 * 根据身份证获取重点人员
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月25日 上午10:08:03
 	 */
 	@Override

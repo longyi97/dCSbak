@@ -16,7 +16,6 @@ import org.hibernate.validator.constraints.NotBlank;
 
 /**
  * 系统配置
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年6月2日
  */
@@ -168,7 +167,6 @@ public class Setting implements Serializable{
 	
 	/**
 	 * 网站名称
-	 * @author 李俊鸿
 	 * @date 2015年6月29日
 	 */
 	public String getSiteName() {
@@ -177,7 +175,6 @@ public class Setting implements Serializable{
 
 	/**
 	 * 网站名称
-	 * @author 李俊鸿
 	 * @date 2015年6月29日
 	 */
 	public void setSiteName(String siteName) {
@@ -389,7 +386,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取版权信息
 	 * @return
-	 * @author 欧阳飞
 	 */
 	public String getCopyRightInfo() {
 		return copyRightInfo;
@@ -398,7 +394,6 @@ public class Setting implements Serializable{
 	/**
 	 * 设置版权信息
 	 * @param copyRightInfo
-	 * @author 欧阳飞
 	 */
 	public void setCopyRightInfo(String copyRightInfo) {
 		this.copyRightInfo = copyRightInfo;
@@ -406,7 +401,6 @@ public class Setting implements Serializable{
 
 	/**
 	 * 公司简介
-	 * @author 李俊鸿
 	 * @date 2015年7月24日
 	 */
 	public String getCompanyInfo() {
@@ -415,7 +409,6 @@ public class Setting implements Serializable{
 
 	/**
 	 * 公司简介
-	 * @author 李俊鸿
 	 * @date 2015年7月24日
 	 */
 	public void setCompanyInfo(String companyInfo) {
@@ -425,7 +418,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取服务时间
 	 * @return
-	 * @author 欧阳飞
 	 */
 	public String getServiceTime() {
 		return serviceTime;
@@ -433,7 +425,6 @@ public class Setting implements Serializable{
 	/**
 	 * 设置服务时间
 	 * @param serviceTime
-	 * @author 欧阳飞
 	 */
 	public void setServiceTime(String serviceTime) {
 		this.serviceTime = serviceTime;
@@ -441,7 +432,6 @@ public class Setting implements Serializable{
 	
 	/**
 	 * 分红周期
-	 * @author 杨龙香
 	 * @date 2016年7月4日
 	 */
 	public int getBonusCycle() {
@@ -450,7 +440,6 @@ public class Setting implements Serializable{
 	
 	/**
 	 * 分红周期
-	 * @author 杨龙香
 	 * @date 2016年7月4日
 	 */
 	public void setBonusCycle(int bonusCycle) {
@@ -460,7 +449,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取最高返点等级
 	 * @return
-	 * @author 杨龙香
 	 */
 	@Column(precision=19, scale=4)
 	public BigDecimal getHighestBackRate() {
@@ -470,7 +458,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取最高返点等级
 	 * @return
-	 * @author 杨龙香
 	 */
 	public void setHighestBackRate(BigDecimal highestBackRate) {
 		this.highestBackRate = highestBackRate;
@@ -479,7 +466,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取最低返点等级
 	 * @return
-	 * @author 杨龙香
 	 */
 	@Column(precision=19, scale=4)
 	public BigDecimal getLowestBackRate() {
@@ -489,7 +475,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取最低返点等级
 	 * @return
-	 * @author 杨龙香
 	 */
 	public void setLowestBackRate(BigDecimal lowestBackRate) {
 		this.lowestBackRate = lowestBackRate;
@@ -498,7 +483,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取最大返点等级差
 	 * @return
-	 * @author 杨龙香
 	 */
 	@Column(precision=19, scale=4)
 	public BigDecimal getMaxBackRateDifference() {
@@ -508,7 +492,6 @@ public class Setting implements Serializable{
 	/**
 	 * 获取最大返点等级差
 	 * @return
-	 * @author 杨龙香
 	 */
 	public void setMaxBackRateDifference(BigDecimal maxBackRateDifference) {
 		this.maxBackRateDifference = maxBackRateDifference;
@@ -517,7 +500,6 @@ public class Setting implements Serializable{
 	/**
 	 * 普通注册玩家返点数
 	 * @return
-	 * @author 杨龙香
 	 */
 	public BigDecimal getNormalPalyerBackrate() {
 		return normalPalyerBackrate;
@@ -526,7 +508,6 @@ public class Setting implements Serializable{
 	/**
 	 * 普通注册玩家返点数
 	 * @return
-	 * @author 杨龙香
 	 */
 	public void setNormalPalyerBackrate(BigDecimal normalPalyerBackrate) {
 		this.normalPalyerBackrate = normalPalyerBackrate;
@@ -534,7 +515,6 @@ public class Setting implements Serializable{
 
 	/**
 	 * 提现手续费率
-	 * @author 杨龙香
 	 */
 	public BigDecimal getWithdrawHandlingFeeRate() {
 		return withdrawHandlingFeeRate;
@@ -542,7 +522,6 @@ public class Setting implements Serializable{
 	
 	/**
 	 * 提现手续费率
-	 * @author 杨龙香
 	 */
 	public void setWithdrawHandlingFeeRate(BigDecimal withdrawHandlingFeeRate) {
 		this.withdrawHandlingFeeRate = withdrawHandlingFeeRate;
@@ -550,7 +529,6 @@ public class Setting implements Serializable{
 	
 	/**
 	 * 提币手续费率
-	 * @author 熊华松
 	 */
 	public BigDecimal getWithdrawVirtualCoinHandlingFeeRate() {
 		return withdrawVirtualCoinHandlingFeeRate;
@@ -558,7 +536,6 @@ public class Setting implements Serializable{
 	
 	/**
 	 * 提币手续费率
-	 * @author 熊华松
 	 */
 	public void setWithdrawVirtualCoinHandlingFeeRate(BigDecimal withdrawVirtualCoinHandlingFeeRate) {
 		this.withdrawVirtualCoinHandlingFeeRate = withdrawVirtualCoinHandlingFeeRate;
@@ -567,7 +544,6 @@ public class Setting implements Serializable{
 	/**
 	 * 人民币转换成美元的汇率(入金)
 	 * @return
-	 * @author 熊华松
 	 */
 	@Column(precision=19, scale=4)
 	public BigDecimal getRmbConverToUSDRate() {
@@ -577,7 +553,6 @@ public class Setting implements Serializable{
 	/**
 	 * 人民币转换成美元的汇率(入金)
 	 * @return
-	 * @author 熊华松
 	 */
 	public void setRmbConverToUSDRate(BigDecimal rmbConverToUSDRate) {
 		this.rmbConverToUSDRate = rmbConverToUSDRate;
@@ -586,7 +561,6 @@ public class Setting implements Serializable{
 	/**
 	 * 美元转换成人民币的汇率(出金)
 	 * @return
-	 * @author 熊华松
 	 */
 	@Column(precision=19, scale=4)
 	public BigDecimal getUsdConverToRMBRate() {
@@ -596,7 +570,6 @@ public class Setting implements Serializable{
 	/**
 	 * 美元转换成人民币的汇率(出金)
 	 * @return
-	 * @author 熊华松
 	 */
 	public void setUsdConverToRMBRate(BigDecimal usdConverToRMBRate) {
 		this.usdConverToRMBRate = usdConverToRMBRate;

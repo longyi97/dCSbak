@@ -16,7 +16,6 @@ import com.ruiec.web.util.SettingUtils;
 
 /**
  * 网站开启/关闭过滤器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年1月12日
  */

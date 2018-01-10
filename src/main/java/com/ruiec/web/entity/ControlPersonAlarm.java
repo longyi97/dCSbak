@@ -15,7 +15,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 重点人预警实体
- * @author Senghor<br>
  * @date 2017年12月1日 上午11:00:41
  */
 @Entity

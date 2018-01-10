@@ -15,7 +15,6 @@ import org.springframework.stereotype.Repository;
  * 自动填充创建日期<br>
  * 自动修改更新日期<br>
  * 分表以后, 切换表名的处理<br>
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年1月4日
  */
@@ -28,16 +27,14 @@ public class EntityInterceptor extends EmptyInterceptor {
 //	
 //	/**
 //	 * 设置表名替换信息
-//	 * @author 肖学良<br>
-//	 * Date: 2015年12月8日
+//	 //	 * Date: 2015年12月8日
 //	 */
 //	public static void setTableNameInfo(TableNameInfo ... tableNameInfos) {  
 //        contextHolder.set(tableNameInfos);
 //    }  
 //	/**
 //	 * 清除表名替换信息
-//	 * @author 肖学良<br>
-//	 * Date: 2015年12月8日
+//	 //	 * Date: 2015年12月8日
 //	 */
 //    public static void clearTableNameInfos() {  
 //        contextHolder.remove();  
@@ -103,7 +100,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 增加一个替换表名
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -120,7 +116,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 清除一个替换表名
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -135,7 +130,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 清除全部替换表名
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -150,7 +144,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 查询前调用该方法，对表名进行替换
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -176,7 +169,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 增加一个替换表名
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -193,7 +185,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 清除一个替换表名
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -208,7 +199,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 清除全部替换表名
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -223,7 +213,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 查询前调用该方法，对表名进行替换
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -248,7 +237,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 保存前回调
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -274,7 +262,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 更新前回调
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */
@@ -297,7 +284,6 @@ public class EntityInterceptor extends EmptyInterceptor {
 	/**
 	 * 删除前回调
 	 * 
-	 * @author 杨龙香<br>
 	 * Version 1.0<br>
 	 * Date: 2016年06月22日
 	 */

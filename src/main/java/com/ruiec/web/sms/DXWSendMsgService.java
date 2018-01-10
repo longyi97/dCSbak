@@ -20,7 +20,6 @@ import com.ruiec.web.util.SettingUtils;
  * 		服务商: web.duanxinwang.cc<br>
  * 		传输协议: HTTP<br>
  * 		调用示例: http://web.duanxinwang.cc/asmx/smsservice.aspx?name=登录名&pwd=接口密码&mobile=手机号码&content=内容&sign=签名&stime=发送时间&type=pt&extno=自定义扩展码<br>
- * @author 熊华松<br>
  * Version: 1.0<br>
  * Date: 2016年09月09日
  */
@@ -43,7 +42,6 @@ public class DXWSendMsgService {
 	 * @param stime			追加发送时间，可为空，为空为及时发送(非必填)
 	 * @param extno			扩展码，必须为数字，可为空(非必填)
 	 * @return
-	 * @author 熊华松
 	 * Date: 2016年09月09日
 	 */
 	public static boolean doPost(String name, String pwd, String sign, String url, StringBuffer mobileString, StringBuffer contextString, String stime, StringBuffer extno) {
@@ -116,7 +114,6 @@ public class DXWSendMsgService {
 	 * 转换输入流为UTF-8格式的字符串
 	 * @param is
 	 * @return
-	 * @author 熊华松
 	 * Date: 2016年09月09日
 	 */
 	public static String convertStreamToString(InputStream is) {
@@ -145,7 +142,6 @@ public class DXWSendMsgService {
 	 * @param mobileString			电话号码字符串，多个电话号码中间用英文逗号间隔
 	 * @param contextString			短信内容字符串
 	 * @return
-	 * @author 熊华松
 	 * Date: 2016年09月09日
 	 */
 	public static boolean sendMsg(String mobileString, String contextString) {

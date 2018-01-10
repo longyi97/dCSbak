@@ -3,7 +3,6 @@ package com.ruiec.web.util;
 
 /**
  * 错误消息工具类
- * @author 熊华松<br>
  * Version: 1.0<br>
  * Date: 2016年06月25日
  */

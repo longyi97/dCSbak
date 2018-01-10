@@ -6,7 +6,6 @@ import com.ruiec.web.entity.DictionaryType;
 
 /**
  * 字典类型数据工具类
- * @author 熊华松
  * Date：2017年09月29日
  */
 public class DictionaryTypeUtil {

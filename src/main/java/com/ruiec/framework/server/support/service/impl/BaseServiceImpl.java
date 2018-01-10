@@ -50,7 +50,6 @@ import com.ruiec.framework.server.support.service.BaseService;
  * 
  * 
  * 基础服务接口实现类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月11日
  */
@@ -966,7 +965,6 @@ public  class BaseServiceImpl<T, ID extends Serializable> implements BaseService
 	
 	/**
 	 * 字段copy
-	 * @author 肖学良<br>
 	 * Date: 2016年1月5日
 	 */
 	@SuppressWarnings({ "unused", "rawtypes", "unchecked" })
@@ -1014,7 +1012,6 @@ public  class BaseServiceImpl<T, ID extends Serializable> implements BaseService
 	
 	/**
 	 * 字段copy
-	 * @author 肖学良<br>
 	 * Date: 2016年1月5日
 	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -1093,7 +1090,6 @@ public  class BaseServiceImpl<T, ID extends Serializable> implements BaseService
 	 * @param source 被复制对象
 	 * @param dest 目标对象
 	 * @param includeProperties 要拷贝的字段
-	 * @author 肖学良<br>
 	 * Date: 2015年3月30日
 	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })

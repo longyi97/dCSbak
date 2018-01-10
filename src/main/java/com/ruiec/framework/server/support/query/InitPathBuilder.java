@@ -5,7 +5,6 @@ import java.io.Serializable;
 import java.util.TreeSet;
 /**
  * 初始化组装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年1月9日
  */
@@ -21,7 +20,6 @@ public class InitPathBuilder implements Serializable {
 	
 	/**
 	 * 添加初始化路径
-	 * @author 肖学良<br>
 	 * Date: 2016年1月9日
 	 */
 	public InitPathBuilder add(String initPath){
@@ -30,7 +28,6 @@ public class InitPathBuilder implements Serializable {
 	}
 	/**
 	 * 返回初始化路径集
-	 * @author 肖学良<br>
 	 * Date: 2016年1月9日
 	 */
 	public java.util.Set<String> build(){

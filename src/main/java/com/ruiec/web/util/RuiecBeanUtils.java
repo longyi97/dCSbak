@@ -16,7 +16,6 @@ import org.springframework.util.Assert;
  * 
  * 
  * 字段拷贝工具
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月23日
  */
@@ -115,7 +114,6 @@ abstract public class RuiecBeanUtils {
 	 * @param source 被复制对象
 	 * @param dest 目标对象
 	 * @param includeProperties 要拷贝的字段
-	 * @author 肖学良<br>
 	 * Date: 2015年3月30日
 	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })

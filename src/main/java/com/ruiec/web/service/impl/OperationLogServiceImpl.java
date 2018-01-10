@@ -15,7 +15,6 @@ import com.ruiec.web.service.OperationLogService;
 
 /**
  * 操作日志服务实现类
- * @author yuankai
  * Date 217-12-05 
  * */
 @Service("operationLogServiceImpl")
@@ -24,7 +23,6 @@ public class OperationLogServiceImpl extends BaseServiceImpl<OperationLog, Strin
 	  
 	  /**
 	   * 插入操作日志
-	   * @author yuankai
 	   * date 2017-12-22
 	   * */
 	  public List<OperationLog> insertOperationLogs(){

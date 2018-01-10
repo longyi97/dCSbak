@@ -18,7 +18,6 @@ import com.ruiec.web.email.SimpleMailSender;
 /**
  * 邮件工具类
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2015年12月31日
  */
@@ -64,7 +63,6 @@ public class RuiecMailUtil {
 	 * 系统邮件发送工具：发送html内容的邮件
 	 * @param htmlContent
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean sendHtmlMail(String receiver, String subject, String htmlContent) {
 		if (RuiecStringUtil.checkNull(receiver, subject, htmlContent)) {
@@ -83,7 +81,6 @@ public class RuiecMailUtil {
 	 * 系统邮件发送工具：发送text内容的邮件
 	 * @param textContent
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean sendTextMail(String receiver, String subject, String textContent) {
 		if (RuiecStringUtil.checkNull(receiver, subject, textContent)) {
@@ -105,7 +102,6 @@ public class RuiecMailUtil {
 	 * @param email 要验证的邮箱
 	 * @param userName 用户名
 	 * @return
-	 * @author 熊华松
 	 */
 	public static String generateMailContent(String domainName, String link, String checkCode, String email, String userName) {
 		/*return "<a href=\'" + domainName + "/" + link + "?checkCode=" + checkCode +"&email="+email+"\'>"

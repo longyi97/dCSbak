@@ -8,7 +8,6 @@ import javax.validation.ConstraintValidatorContext;
  * 
  * 
  * 倍率验证器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年3月21日
  */

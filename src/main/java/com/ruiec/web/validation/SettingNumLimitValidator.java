@@ -15,7 +15,6 @@ import com.ruiec.web.util.SettingUtils;
  * 
  * 
  * 系统参数数字范围验证器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年3月25日
  */

@@ -8,7 +8,6 @@ import com.ruiec.server.common.entity.SysConfig;
 
 /**
  * 系统配置项服务接口
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月22日
  */
@@ -16,7 +15,6 @@ public interface SysConfigService extends BaseService<SysConfig, String>{
 	
 	/**
 	 * 批量更新系统配置
-	 * @author 肖学良<br>
 	 * Date: 2016年1月6日
 	 */
 	public void update(List<SysConfig> sysConfigs);

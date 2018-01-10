@@ -32,7 +32,6 @@ import com.ruiec.web.service.DbTableService;
 /**
  * 数据源服务实现类
  * 
- * @author qinzhitian<br>
  * @date 2017年12月18日 下午4:49:03
  */
 @Service("dbServiceImpl")
@@ -53,7 +52,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 	private int size = 100;
 	/**
 	 * 保存数据源
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午5:46:15
 	 */
 	@Override
@@ -78,7 +76,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 	}
 	/**
 	 * 修改数据源
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午5:46:15
 	 */
 	@Override
@@ -104,7 +101,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 
 	/**
 	 * 检查是否可以建立数据库连接
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午5:57:54
 	 */
 	public Connection getConnection(Db db) throws Exception {
@@ -127,7 +123,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 	}
 	/**
 	 * 数据导入(库)
-	 * @author qinzhitian<br>
 	 * @date 2017年12月21日 上午9:56:40
 	 * @param id 数据源id
 	 */
@@ -159,7 +154,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 	}
 	/**
 	 * 数据导入(库)
-	 * @author qinzhitian<br>
 	 * @date 2017年12月21日 上午9:56:40
 	 * @param id 数据源id
 	 */
@@ -191,7 +185,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 	}
 	/**
 	 * 查询总条数
-	 * @author qinzhitian<br>
 	 * @date 2017年12月21日 上午9:56:12
 	 */
 	public Long getCount(DbTable dbTable) throws SQLException {
@@ -228,7 +221,6 @@ public class DbServiceImpl extends BaseServiceImpl<Db, Integer> implements DbSer
 	}
 	/**
 	 * 保存数据
-	 * @author qinzhitian<br>
 	 * @date 2017年12月20日 下午3:12:08
 	 */
 	@Transactional

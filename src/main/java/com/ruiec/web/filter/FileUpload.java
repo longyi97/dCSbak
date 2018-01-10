@@ -35,7 +35,6 @@ import com.ruiec.framework.web.file.FileClient;
  * 
  * 
  * 文件上传过滤器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月22日
  */

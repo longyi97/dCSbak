@@ -13,7 +13,6 @@ import org.apache.commons.lang3.time.DateUtils;
 /**
  * 日期工具类
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2015年12月31日
  */
@@ -22,7 +21,6 @@ public class RuiecDateUtils {
 	/**
 	 * 获取当前月的第一秒
 	 * @return
-	 * @author 熊华松
 	 */
 	public static Date getMinForMonth(Date date) {
 		Calendar cal = Calendar.getInstance();
@@ -45,7 +43,6 @@ public class RuiecDateUtils {
 	/**
 	 * 获取昨天的第一秒
 	 * 
-	 * @author 杨龙香<br>
 	 * Date:2016年07月07日
 	 */
 	public static Date getFirstSecondOfYesterday(){
@@ -73,7 +70,6 @@ public class RuiecDateUtils {
 	/**
 	 * 获取昨天的最后一秒
 	 * 
-	 * @author 杨龙香<br>
 	 * Date:2016年07月07日
 	 */
 	public static Date getLastSecondOfYesterday(){
@@ -141,7 +137,6 @@ public class RuiecDateUtils {
 	
 	/**
 	 * 将yyyy-MM-dd的字符串转换为日期
-	 * @author 刘立雯
 	 * Date：2016年09月06日
 	 */
 	public static Date parse_yyyy_MM_dd(String yyyyMMddString){
@@ -157,7 +152,6 @@ public class RuiecDateUtils {
 	
 	/**
 	 * yyyyMMddHHmm格式转换为日期
-	 * @author 熊华松
 	 * @param yyyyMMddHHmmString
 	 * @return
 	 * Date: 2016-06-14
@@ -175,7 +169,6 @@ public class RuiecDateUtils {
 	
 	/**
 	 * yyyyMMddHHmmss格式转换为日期
-	 * @author 熊华松
 	 * @param yyyyMMddHHmmssString
 	 * @return
 	 * Date: 2016-06-14
@@ -193,7 +186,6 @@ public class RuiecDateUtils {
 	
 	/**
 	 * ××时××分格式转换为××年××月××日 ××时××分
-	 * @author 熊华松
 	 * @param time
 	 * @return
 	 * Date: 2016-06-14
@@ -299,7 +291,6 @@ public class RuiecDateUtils {
 	/**
 	 * 获取当前月的最后一秒
 	 * @return
-	 * @author 熊华松
 	 */
 	public static Date getMaxForMonth(Date date) {
 		Calendar cal = Calendar.getInstance();
@@ -328,7 +319,6 @@ public class RuiecDateUtils {
 	}
 	/**
 	 * yyyy-MM-dd
-	 * @author 肖学良<br>
 	 * Date: 2015年8月28日
 	 */
 	public static String formatYyyy_MM_dd(Date date){
@@ -337,7 +327,6 @@ public class RuiecDateUtils {
 	
 	/**
 	 * yyyy-MM-dd
-	 * @author 肖学良<br>
 	 * Date: 2015年8月28日
 	 */
 	public static String transferDate2String(Date date) {
@@ -403,7 +392,6 @@ public class RuiecDateUtils {
 	
     /**
      * 获取n天后的时间
-     * @author 刘立雯
      * 
      * @param date 开始时间
      * @param n 几天
@@ -420,7 +408,6 @@ public class RuiecDateUtils {
     
     /**
      * 求两个时间之间的时间差
-     * @author 刘立雯
      * 
      * @param startTime 开始时间（减数）
      * @param endTime 结束时间（被减数）

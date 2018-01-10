@@ -12,7 +12,6 @@ import javax.validation.Payload;
  * 
  * 
  * 系统参数最小值比较器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年3月25日
  */
@@ -27,7 +26,6 @@ public @interface SettingMin {
     
     /**
      * 字段名称
-     * @author 肖学良<br>
      * Date: 2015年3月25日
      */
     String fieldName();

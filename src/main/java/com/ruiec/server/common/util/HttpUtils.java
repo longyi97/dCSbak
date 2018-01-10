@@ -27,7 +27,6 @@ import org.apache.http.util.EntityUtils;
 /**
  * http工具
  * 
- * @author 肖学良<br>
  *         Version: 1.0<br>
  *         Date: 2016年3月22日
  */

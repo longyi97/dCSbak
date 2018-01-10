@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 /**
  * 管理员管理查询条件DTO
- * @author 贺云<br>
  * @date 2017年12月9日 上午10:48:33
  */
 public class UserUnitDTO implements Serializable{

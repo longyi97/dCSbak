@@ -7,7 +7,6 @@ import com.ruiec.framework.server.support.entity.SortEntity;
 
 /**
  * 商品结算时间(缓存)
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年01月04日
  */
@@ -30,7 +29,6 @@ public class GoodsTimeBufer extends SortEntity {
 	/**
 	 * 结算时间类型
 	 * 
-	 * @author 肖学良<br>
 	 *         Date: 2016年3月22日
 	 */
 	public String getCycleType() {
@@ -40,7 +38,6 @@ public class GoodsTimeBufer extends SortEntity {
 	/**
 	 * 结算时间类型
 	 * 
-	 * @author 肖学良<br>
 	 *         Date: 2016年3月22日
 	 */
 	public void setCycleType(String cycleType) {
@@ -64,7 +61,6 @@ public class GoodsTimeBufer extends SortEntity {
 	/**
 	 * 失效时间
 	 * 
-	 * @author 肖学良<br>
 	 *         Date: 2016年3月22日
 	 */
 	public Date getEndTime() {
@@ -74,7 +70,6 @@ public class GoodsTimeBufer extends SortEntity {
 	/**
 	 * 失效时间
 	 * 
-	 * @author 肖学良<br>
 	 *         Date: 2016年3月22日
 	 */
 	public void setEndTime(Date endTime) {

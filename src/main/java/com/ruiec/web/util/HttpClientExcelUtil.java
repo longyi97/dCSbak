@@ -29,7 +29,6 @@ import org.apache.http.util.EntityUtils;
   
 /** 
  * @web http://www.mobctrl.net 
- * @author Zheng Haibo 
  * @Description: 文件下载 POST GET 
  */  
 public class HttpClientExcelUtil {  

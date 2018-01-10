@@ -16,7 +16,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 /**
  * 数据导入表信息实体
  * 
- * @author qinzhitian<br>
  * @date 2017年12月18日 下午4:24:16
  */
 @Entity

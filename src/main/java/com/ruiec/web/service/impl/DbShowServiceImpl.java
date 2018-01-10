@@ -17,7 +17,6 @@ import com.ruiec.web.service.DbTableService;
 
 /**
  * 数据展示服务实现类
- * @author qinzhitian<br>
  * @date 2017年12月18日 下午4:49:03
  */
 @Service("dbShowServiceImpl")
@@ -27,7 +26,6 @@ public class DbShowServiceImpl extends BaseServiceImpl<DbShow, Integer> implemen
 	private DbTableService dbTableService;
 	/**
 	 * 根据数据导入表id查询数据展示子集
-	 * @author qinzhitian<br>
 	 * @date 2017年12月21日 下午5:53:49
 	 */
 	@Override
@@ -45,7 +43,6 @@ public class DbShowServiceImpl extends BaseServiceImpl<DbShow, Integer> implemen
 	}
 	/**
 	 * 批量删除
-	 * @author qinzhitian<br>
 	 * @date 2017年12月22日 上午9:32:15
 	 */
 	@Override

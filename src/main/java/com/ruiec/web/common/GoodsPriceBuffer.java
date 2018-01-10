@@ -6,7 +6,6 @@ import java.util.Date;
 
 /**
  * 商品价格行情
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年01月04日
  */
@@ -52,7 +51,6 @@ public class GoodsPriceBuffer{
 
 	/**
 	 * 玩法类型
-	 * @author 肖学良<br>
 	 * Date: 2017年3月28日
 	 */
 	public String getOptionType() {
@@ -61,7 +59,6 @@ public class GoodsPriceBuffer{
 
 	/**
 	 * 玩法类型
-	 * @author 肖学良<br>
 	 * Date: 2017年3月28日
 	 */
 	public void setOptionType(String optionType) {
@@ -84,7 +81,6 @@ public class GoodsPriceBuffer{
 
 	/**
 	 * 行情时间
-	 * @author 肖学良<br>
 	 * Date: 2016年3月22日
 	 */
 	public Date getTime() {
@@ -93,7 +89,6 @@ public class GoodsPriceBuffer{
 
 	/**
 	 * 行情时间
-	 * @author 肖学良<br>
 	 * Date: 2016年3月22日
 	 */
 	public void setTime(Date time) {
@@ -102,7 +97,6 @@ public class GoodsPriceBuffer{
 
 	/**
 	 * 时间戳
-	 * @author 肖学良<br>
 	 * Date: 2016年3月23日
 	 */
 	public Long getTimestamp() {
@@ -111,7 +105,6 @@ public class GoodsPriceBuffer{
 
 	/**
 	 * 时间戳
-	 * @author 肖学良<br>
 	 * Date: 2016年3月23日
 	 */
 	public void setTimestamp(Long timestamp) {

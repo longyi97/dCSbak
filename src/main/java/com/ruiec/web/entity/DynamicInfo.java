@@ -12,7 +12,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 /**
  * 轨迹数据实体
  * 
- * @author bingo<br>
  * @date 2017年12月22日 下午3:51:12
  */
 @Entity

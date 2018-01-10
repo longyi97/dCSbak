@@ -19,7 +19,6 @@ import com.ruiec.web.service.ControlPersonRelationService;
 import com.ruiec.web.service.LeavePersonService;
 /**
  * 离堰人员服务实现类
- * @author qinzhitian<br>
  * @date 2017年12月6日 下午8:17:34
  */
 @Service("leavePersonServiceImpl")

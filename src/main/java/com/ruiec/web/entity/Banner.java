@@ -9,7 +9,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 首页滚动图片管理
- * @author Senghor<br>
  * @date 2017年11月28日 下午3:56:03
  */
 @Entity

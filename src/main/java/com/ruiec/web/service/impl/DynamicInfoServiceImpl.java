@@ -17,7 +17,6 @@ import com.ruiec.web.service.DynamicInfoService;
 /**
  * 轨迹数据服务实现类
  * 
- * @author bingo<br>
  * @date 2017年12月23日 上午9:25:37
  */
 @Service
@@ -29,7 +28,6 @@ public class DynamicInfoServiceImpl extends BaseServiceImpl<DynamicInfo, String>
 	/**
 	 * 保存轨迹记录，同时生成预警记录
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月25日 下午2:12:08
 	 */
 	@Override

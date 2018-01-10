@@ -22,7 +22,6 @@ import com.ruiec.web.common.Setting;
  * 
  * 
  * 系统配置参数工具类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月21日
  */

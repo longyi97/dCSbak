@@ -29,7 +29,6 @@ import com.ruiec.web.service.UserUnitService;
 
 /**
  * 管理员管理接口实现类
- * @author 贺云<br>
  * @date 2017年12月5日 下午4:02:09
  */
 @Service
@@ -43,7 +42,6 @@ public class UserUnitServiceImpl extends BaseServiceImpl<UserUnit, Integer> impl
 	
 	/**
 	 * 查询单位管理员是否存在
-	 * @author qinzhitian<br>
 	 * @date 2017年12月8日 上午10:12:29
 	 */
 	@Override
@@ -94,7 +92,6 @@ public class UserUnitServiceImpl extends BaseServiceImpl<UserUnit, Integer> impl
 	
 	/**
 	 * 查询单位管理员是否存在
-	 * @author qinzhitian<br>
 	 * @date 2017年12月8日 上午10:12:29
 	 */
 	@Override
@@ -118,7 +115,6 @@ public class UserUnitServiceImpl extends BaseServiceImpl<UserUnit, Integer> impl
 
 	/**
 	 * 新增管理员
-	 * @author 贺云<br>
 	 * @date 2017年12月12日 上午10:25:16
 	 */
 	@Override
@@ -146,7 +142,6 @@ public class UserUnitServiceImpl extends BaseServiceImpl<UserUnit, Integer> impl
 
 	/**
 	 * 管理员列表
-	 * @author 贺云<br>
 	 * @date 2017年12月13日 上午9:35:59
 	 */
 	@Override
@@ -174,7 +169,6 @@ public class UserUnitServiceImpl extends BaseServiceImpl<UserUnit, Integer> impl
 
 	/**
 	 * 查询用户关联管理单位
-	 * @author qinzhitian<br>
 	 * @date 2017年12月17日 下午2:50:55
 	 */
 	@Override
@@ -205,7 +199,6 @@ public class UserUnitServiceImpl extends BaseServiceImpl<UserUnit, Integer> impl
 	
 	/**
 	 * 获取用户对应单位的数据
-	 * @author Senghor<br>
 	 * @date 2017年12月20日 下午4:38:52
 	 */
 	@Override

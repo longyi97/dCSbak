@@ -11,7 +11,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 系统配置项实体类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月21日
  */

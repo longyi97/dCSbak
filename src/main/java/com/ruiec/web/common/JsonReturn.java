@@ -3,7 +3,6 @@ package com.ruiec.web.common;
 /**
  * 手机端公用返回操作结果的bean
  * 
- * @author 张俊<br>
  * @date 2017年11月22日 下午5:49:29
  */
 public class JsonReturn {

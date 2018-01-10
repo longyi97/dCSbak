@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * 过滤组装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月24日
  */
@@ -18,7 +17,6 @@ public class FilterBuilder implements Serializable {
 	
 	/**
 	 * 添加过滤条件
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public FilterBuilder add(Filter filter){
@@ -27,7 +25,6 @@ public class FilterBuilder implements Serializable {
 	}
 	/**
 	 * 返回过滤集
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public List<Filter> build(){

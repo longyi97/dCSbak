@@ -9,7 +9,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 /**
  * 数据库信息展示实体
  * 
- * @author qinzhitian<br>
  * @date 2017年12月18日 下午4:32:03
  */
 @Entity

@@ -13,7 +13,6 @@ import java.util.regex.Pattern;
 /**
  * 字符串工具类
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2015年12月31日
  */
@@ -26,7 +25,6 @@ public class RuiecStringUtil {
 	 * @param offset
 	 * @param str
 	 * @return
-	 * @author 熊华松
 	 */
 	public static String insert(String source, int offset, String str) {
 		if (source == null) {
@@ -42,7 +40,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param args
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean checkNull(String... args) {
 		for (String arg : args) {
@@ -58,7 +55,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param username
 	 * @return
-	 * @author 刘立雯
 	 */
 	public static boolean isUsername(String username) {
 		if (checkNull(username)) {
@@ -75,7 +71,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param name
 	 * @return
-	 * @author 刘立雯
 	 */
 	public static boolean isName(String name) {
 		if (checkNull(name)) {
@@ -92,7 +87,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param bankcardNo
 	 * @return
-	 * @author 刘立雯
 	 */
 	public static boolean isBankcardNo(String bankcardNo) {
 		if (checkNull(bankcardNo)) {
@@ -109,7 +103,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param mobiles
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean isMobileNO(String mobiles) {
 		if (checkNull(mobiles)) {
@@ -126,7 +119,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param email
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean isEmail(String email) {
 		if (checkNull(email)) {
@@ -147,7 +139,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param number
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean checkmobile(String number) { // *Regexp匹配模式 //
 		if (checkNull(number)) {
@@ -164,7 +155,6 @@ public class RuiecStringUtil {
 	 * 
 	 * @param number
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean checkQq(String number) { // *Regexp匹配模式 //
 		if (checkNull(number)) {
@@ -180,7 +170,6 @@ public class RuiecStringUtil {
 	 * 获取不带连接符的uuid
 	 * 
 	 * @return
-	 * @author 熊华松
 	 */
 	public static String getUuidWithoutSeparator() {
 		String uuid = UUID.randomUUID().toString();
@@ -201,7 +190,6 @@ public class RuiecStringUtil {
 	 * @return
 	 * @throws NumberFormatException
 	 * @throws ParseException
-	 * @author 熊华松
 	 */
 	public static String validateIDCard(String idStr)
 			throws NumberFormatException, ParseException {
@@ -398,7 +386,6 @@ public class RuiecStringUtil {
 	
 	/**
 	 * 过滤掉字符串中的HTML标签
-	 * @author 刘立雯
 	 * Date：2017年02月09日
 	 */
 	public static String HtmlToText(String inputString) {

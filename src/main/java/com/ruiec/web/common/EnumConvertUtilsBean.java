@@ -7,7 +7,6 @@ import org.apache.commons.beanutils.converters.ArrayConverter;
  * 
  * 
  * 使用包装模式 增强ConvertUtilsBean可以处理枚举和枚举数组
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月28日
  */

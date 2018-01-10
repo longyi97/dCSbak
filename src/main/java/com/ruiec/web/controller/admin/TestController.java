@@ -30,7 +30,6 @@ import com.ruiec.web.service.impl.DataCaptureServiceImpl;
 /**
  * 测试控制器
  * 
- * @author bingo<br>
  * @date 2017年12月23日 上午11:17:41
  */
 @Controller
@@ -53,7 +52,6 @@ public class TestController {
 	/**
 	 * 省厅进港数据
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException 
 	 * @date 2017年12月23日 上午11:19:41
 	 */
@@ -70,7 +68,6 @@ public class TestController {
 	/**
 	 * 人脸识别数据
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException 
 	 * @date 2017年12月23日 上午11:19:41
 	 */

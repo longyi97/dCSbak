@@ -33,7 +33,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * 
  * 
  * 图片/文件服务器客户端
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月22日
  */

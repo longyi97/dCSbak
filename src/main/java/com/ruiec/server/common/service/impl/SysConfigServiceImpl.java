@@ -11,7 +11,6 @@ import com.ruiec.server.common.entity.SysConfig;
 import com.ruiec.server.common.service.SysConfigService;
 /**
  * 系统配置项服务接口实现类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年5月20日
  */

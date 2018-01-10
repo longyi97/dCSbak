@@ -16,10 +16,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  * 读取excel文件
- * 
- * @author Jiacheng Poi解析2003时使用的是HSSFCell，而2007的则是 XSSFCell，是完全不同的两套API
- *         必须先要判断excel的类型，不过 HSSFWorkbook 和 XSSFWorkbook
- *         实现的接口都是一样的Workbook，直接在实例化接口的时候有点区别其他时候没有任何差异。
+ * Poi解析2003时使用的是HSSFCell，而2007的则是 XSSFCell，是完全不同的两套API
+ * 必须先要判断excel的类型，不过 HSSFWorkbook 和 XSSFWorkbook
+ * 实现的接口都是一样的Workbook，直接在实例化接口的时候有点区别其他时候没有任何差异。
  */
 public class ExcelUtil {
 	public static List<List<Object>> readExcel(File file) throws IOException {

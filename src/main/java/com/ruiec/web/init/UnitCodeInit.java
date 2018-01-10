@@ -16,7 +16,6 @@ import com.ruiec.web.service.UnitService;
 
 /**
  * 单位编码全局静态变量初始化
- * @author 贺云<br>
  * @date 2017年12月7日 上午10:42:20
  */
 public class UnitCodeInit implements ApplicationListener<ContextRefreshedEvent> {

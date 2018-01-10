@@ -9,7 +9,6 @@ import com.ruiec.web.service.ControlPersonRelationService;
 
 /**
  * 重点人员关系服务接口实现类
- * @author Senghor<br>
  * @date 2017年11月30日 上午9:01:37
  */
 @Repository("controlPersonRelationServiceImpl")

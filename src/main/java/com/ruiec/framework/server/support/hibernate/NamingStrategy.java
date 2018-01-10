@@ -5,7 +5,6 @@ import org.hibernate.cfg.DefaultNamingStrategy;
 
 /**
  * hibernate命名策略
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月19日
  */

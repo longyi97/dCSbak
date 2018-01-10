@@ -19,12 +19,10 @@ import com.ruiec.web.service.UnitService;
 
 /**
  * 单位服务接口实现类
- * @author Senghor<br>
  * @date 2017年11月30日 上午9:01:37
  */
 /**
  * 
- * @author Senghor<br>
  * @date 2017年12月11日 下午2:21:47
  */
 @Service("unitServiceImpl")
@@ -32,7 +30,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 
 	/**
 	 * 获取子孙级
-	 * @author Senghor<br>
 	 * @date 2017年12月9日 上午10:45:06
 	 */
 	@SuppressWarnings("unchecked")
@@ -98,7 +95,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 	
 	/**
 	 * 获取父祖级
-	 * @author Senghor<br>
 	 * @date 2017年12月9日 上午10:45:06
 	 */
 	@Override
@@ -125,7 +121,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 	/**
 	 * 获取区级所有的单位
 	 * isCity : 1将市级单位获取   ，0不获取市级单位
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 上午10:44:04
 	 */
 	@Override
@@ -148,7 +143,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 
 	/**
 	 * 镇级单位列表查询方法
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 下午1:39:15
 	 */
 	@Override
@@ -184,7 +178,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 
 	/**
 	 * 根据警员所属单位级别查询可下发警种部门
-	 * @author qinzhitian<br>
 	 * @date 2017年12月7日 下午9:25:06
 	 */
 	@Override
@@ -206,7 +199,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 	
 	/**
 	 * 根据单位查询下级单位
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 上午9:54:10
 	 */
 	@Override
@@ -239,7 +231,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 	
 	/**
 	 * 保存单位添加信息
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 下午2:18:33
 	 */
 	@Override
@@ -324,7 +315,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 	
 	/**
 	 * 保存单位修改信息
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 下午2:21:49
 	 */
 	@Override
@@ -385,7 +375,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 
 	/**
 	 * 查询所有区县级和乡镇级单位
-	 * @author 贺云<br>
 	 * @date 2017年12月11日 下午3:19:37
 	 */
 	@SuppressWarnings("unchecked")
@@ -401,7 +390,6 @@ public class UnitServiceImpl extends BaseServiceImpl<Unit, Integer> implements U
 	
 	/**
 	 * 获取所有的区级警种单位
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 上午9:54:10
 	 */
 	@Override

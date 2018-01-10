@@ -6,7 +6,6 @@ import com.ruiec.web.entity.LeavePerson;
 
 /**
  * 离堰人员服务接口
- * @author qinzhitian<br>
  * @date 2017年12月6日 下午8:15:13
  */
 public interface LeavePersonService extends BaseService<LeavePerson, Integer>{

@@ -15,7 +15,6 @@ import com.ruiec.web.service.DictionaryTypeService;
 
 
 /**
- * @author yuankai
  * date 2017年11月30
  *  字典类型服务类
  * */
@@ -24,7 +23,6 @@ public class DictionaryTypeServiceImpl  extends BaseServiceImpl<DictionaryType, 
 
 	/**
 	 * 修改字典数据默认状态
-	 * @author yuankai<br>
 	 * @date 2017年12月2日 上午9:49:17
 	 */
 	@Override

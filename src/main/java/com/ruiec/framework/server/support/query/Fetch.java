@@ -8,7 +8,6 @@ import org.hibernate.sql.JoinType;
 
 /**
  * 抓取策略封装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月11日
  */
@@ -38,7 +37,6 @@ public class Fetch implements Serializable {
 	
 	/**
 	 * 获取连接抓取策略
-	 * @author 肖学良<br>
 	 * Date: 2015年12月11日
 	 */
 	public static Fetch join(String associationPath){
@@ -46,7 +44,6 @@ public class Fetch implements Serializable {
 	}
 	/**
 	 * 获取子查询抓取策略
-	 * @author 肖学良<br>
 	 * Date: 2015年12月11日
 	 */
 	public static Fetch select(String associationPath){
@@ -54,7 +51,6 @@ public class Fetch implements Serializable {
 	}
 	/**
 	 * 创建关联别名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月11日
 	 */
 	public static Fetch alias(String associationPath, String alias){
@@ -63,7 +59,6 @@ public class Fetch implements Serializable {
 	
 	/**
 	 * 创建关联别名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月11日
 	 */
 	public static Fetch alias(String associationPath, String alias, JoinType joinType){
@@ -72,7 +67,6 @@ public class Fetch implements Serializable {
 
 	/**
 	 * 获取关联路径
-	 * @author 肖学良<br>
 	 * Date: 2015年12月11日
 	 */
 	public String getAssociationPath() {
@@ -81,7 +75,6 @@ public class Fetch implements Serializable {
 
 	/**
 	 * 获取抓取策略
-	 * @author 肖学良<br>
 	 * Date: 2015年12月11日
 	 */
 	public FetchMode getFetchMode() {
@@ -89,7 +82,6 @@ public class Fetch implements Serializable {
 	}
 	/**
 	 * 关联别名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月15日
 	 */
 	public String getAlias() {
@@ -97,7 +89,6 @@ public class Fetch implements Serializable {
 	}
 	/**
 	 * 关联别名
-	 * @author 肖学良<br>
 	 * Date: 2015年12月15日
 	 */
 	public void setAlias(String alias) {
@@ -106,7 +97,6 @@ public class Fetch implements Serializable {
 
 	/**
 	 * 连接方式
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public JoinType getJoinType() {
@@ -115,7 +105,6 @@ public class Fetch implements Serializable {
 
 	/**
 	 * 连接方式
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public void setJoinType(JoinType joinType) {

@@ -6,7 +6,6 @@ import java.util.Date;
 /**
  * 账户明细搜索条件封装类
  * 
- * @author 熊华松<br>
  * Version: 1.0<br>
  * Date: 2016年03月30日
  */

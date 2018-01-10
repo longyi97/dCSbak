@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * 更新set组装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月25日
  */
@@ -18,7 +17,6 @@ public class SetBuilder implements Serializable {
 	
 	/**
 	 * 添加排序
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public SetBuilder add(Set set){
@@ -27,7 +25,6 @@ public class SetBuilder implements Serializable {
 	}
 	/**
 	 * 返回排序
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public List<Set> build(){

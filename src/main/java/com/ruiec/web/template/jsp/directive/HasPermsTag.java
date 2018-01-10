@@ -10,7 +10,6 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 
 /**
  * 角色权限判断标签
- * @author 肖学良
  *
  */
 public class HasPermsTag extends SimpleTagSupport {

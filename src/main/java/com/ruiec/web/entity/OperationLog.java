@@ -12,7 +12,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 操作日志实体
- * @author 陈靖原<br>
  * @date 2017年11月28日 下午5:05:34
  */
 @Entity

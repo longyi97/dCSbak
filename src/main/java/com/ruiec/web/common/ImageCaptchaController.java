@@ -19,7 +19,6 @@ import com.octo.captcha.service.CaptchaServiceException;
 
 /**
  * 图片验证码控制器
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2016年7月25日
  */
@@ -31,7 +30,6 @@ public class ImageCaptchaController {
 	
 	/**
 	 * 输出图片验证码
-	 * @author 熊华松<br>
 	 * Date: 2016年7月25日
 	 */	
 	@RequestMapping("/image")
@@ -53,7 +51,6 @@ public class ImageCaptchaController {
 	
 	/**
 	 * 校验验证码是否输入正确
-	 * @author 熊华松<br>
 	 * Date: 2016年7月25日
 	 */	
 	@RequestMapping("/valid")
@@ -72,7 +69,6 @@ public class ImageCaptchaController {
 	
 	/**
 	 * 校验验证码是否输入正确, 并放入一个UUID到request域
-	 * @author 熊华松<br>
 	 * Date: 2016年7月25日
 	 */	
 	@RequestMapping("/validUuid")

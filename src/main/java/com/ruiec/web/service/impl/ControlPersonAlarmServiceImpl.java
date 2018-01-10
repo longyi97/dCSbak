@@ -35,7 +35,6 @@ import com.ruiec.web.service.UnitService;
 
 /**
  * 重点人员预警服务接口实现类
- * @author Senghor<br>
  * @date 2017年11月30日 上午9:01:37
  */
 @Service("controlPersonAlarmServiceImpl")
@@ -47,7 +46,6 @@ public class ControlPersonAlarmServiceImpl extends BaseServiceImpl<ControlPerson
 	
 	/**
 	 * 根据预警级别分类获取数量
-	 * @author 陈靖原<br>
 	 * @date 2017年11月29日 下午10:50:06
 	 */
 	@Override
@@ -75,7 +73,6 @@ public class ControlPersonAlarmServiceImpl extends BaseServiceImpl<ControlPerson
 
 	/**
 	 * 根据idCard去重，在用排序获取最大的id
-	 * @author yuankai 
 	 * Date 2017年12月19日 
 	 * */
 	 @Override
@@ -89,7 +86,6 @@ public class ControlPersonAlarmServiceImpl extends BaseServiceImpl<ControlPerson
 	
 	/**
 	 * 根据条件查询预警
-	 * @author 陈靖原<br>
 	 * @date 2017年11月29日 下午10:50:06
 	 */
 	@Override

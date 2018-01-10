@@ -8,7 +8,6 @@ import org.apache.log4j.Logger;
  * 
  * 
  * 系统任务
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月22日
  */

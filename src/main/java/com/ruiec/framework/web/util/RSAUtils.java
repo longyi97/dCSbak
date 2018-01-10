@@ -44,7 +44,6 @@ import org.slf4j.LoggerFactory;
 /**
  * RSA算法加密/解密工具类。
  * 
- * @author fuchun
  * @version 1.0.0, 2010-05-05
  */
 public abstract class RSAUtils {
@@ -453,7 +452,6 @@ public abstract class RSAUtils {
      * @param input_charset 编码格式
      * @return 签名值
      * 
-     * @author 刘立雯
      * Date：2016年10月10日
      */
      public static String sign(String content, String privateKey, String input_charset)
@@ -490,7 +488,6 @@ public abstract class RSAUtils {
      * @param input_charset 编码格式
      * @return 布尔值
      * 
-     * @author 刘立雯
      * Date：2016年10月10日
      */
      public static boolean verify(String content, String sign, String ali_public_key, String input_charset)
@@ -527,7 +524,6 @@ public abstract class RSAUtils {
      * @param input_charset 编码格式
      * @return 解密后的字符串
      * 
-     * @author 刘立雯
      * Date：2016年10月10日
      */
      public static String decrypt(String content, String private_key, String input_charset) throws Exception {

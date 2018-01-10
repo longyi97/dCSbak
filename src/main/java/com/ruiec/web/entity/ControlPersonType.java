@@ -11,7 +11,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 重点人员管理字典数据之人员类别中间实体
- * @author Senghor<br>
  * @date 2017年12月13日 上午10:57:23
  */
 @Entity

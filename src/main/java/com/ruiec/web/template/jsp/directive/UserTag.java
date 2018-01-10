@@ -13,7 +13,6 @@ import com.ruiec.web.util.SpringUtils;
 
 /**
  * 单位标签
- * @author Senghor<br>
  * @date 2017年12月7日 下午2:50:50
  */
 public class UserTag extends SimpleTagSupport {

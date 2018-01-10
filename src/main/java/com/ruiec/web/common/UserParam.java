@@ -1,7 +1,6 @@
 package com.ruiec.web.common;
 /**
  * 用户的常用参数配置
- * @author 刘立雯
  * Date：2016年10月24日
  */
 public class UserParam {

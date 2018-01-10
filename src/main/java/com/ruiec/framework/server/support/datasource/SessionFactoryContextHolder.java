@@ -3,7 +3,6 @@ package com.ruiec.framework.server.support.datasource;
 
 /**
  * sessionFactory切换工具类(线程安全)
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年1月4日
  */

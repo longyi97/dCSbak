@@ -12,7 +12,6 @@ import org.apache.commons.lang3.StringUtils;
  * 
  * 
  * 两个字段比比较大小验证器(较大数为0，或较大数大于较小数)
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年3月23日
  */

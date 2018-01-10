@@ -2,7 +2,6 @@ package com.ruiec.web.enumeration;
 
 /**
  * 单位级别枚举类
- * @author Senghor<br>
  * @date 2017年12月18日 下午3:26:47
  */
 public enum UnitRank {

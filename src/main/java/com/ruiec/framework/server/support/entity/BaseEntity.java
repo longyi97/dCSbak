@@ -18,7 +18,6 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 /**
  * 实体基类<br>
  * 提供id,创建和修改日期
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月17日
  */

@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
 /**
  * Hibernate SQL Formatter
  * 
- * @author bingo<br>
  * @date 2018年1月6日 上午9:36:23
  */
 public class SQLFormatter {

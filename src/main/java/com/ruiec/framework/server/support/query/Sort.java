@@ -4,7 +4,6 @@ package com.ruiec.framework.server.support.query;
 import java.io.Serializable;
 /**
  * 排序封装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月11日
  */
@@ -26,7 +25,6 @@ public class Sort implements Serializable {
 	
 	/**
 	 * 获取排序组装类
-	 * @author 肖学良<br>
 	 * Date: 2015年12月24日
 	 */
 	public static SortBuilder build(){

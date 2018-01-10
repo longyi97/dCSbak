@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 后台重定向
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2016年1月12日
  */

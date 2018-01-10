@@ -24,7 +24,6 @@ import org.jdom2.input.SAXBuilder;
 
 /**
  * XML操作类
- * @author 刘立雯
  * Date：2016年10月10日
  */
 public class XMLUtil {

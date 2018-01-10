@@ -14,14 +14,12 @@ import org.dom4j.Element;
 
 /**
  * Map集合工具类
- * @author 刘立雯
  * Date：2016年09月19日
  */
 public class MapUtils {
 	
 	/**
 	 * TreeMap集合拼接字符串
-	 * @author 刘立雯
 	 * Date：2016年09月19日
 	 */
 	public static StringBuffer getTreeMapString(TreeMap<?, ?> treeMap) {
@@ -40,7 +38,6 @@ public class MapUtils {
 	
 	/**
 	 * TreeMap集合转换XML(参数带<![CDATA[]])
-	 * @author 刘立雯
 	 * Date：2016年09月19日
 	 */
 	public static String getTreeMapToXmlCDATA(TreeMap<?, ?> treeMap) {
@@ -59,7 +56,6 @@ public class MapUtils {
 	
 	/**
 	 * TreeMap集合转换XML
-	 * @author 刘立雯
 	 * Date：2016年09月19日
 	 */
 	public static String getTreeMapToXml(TreeMap<?, ?> treeMap) {
@@ -76,7 +72,6 @@ public class MapUtils {
 	
 	/**
 	 * json数据转Map集合
-	 * @author 刘立雯
 	 * Date：2016年10月19日
 	 */
 	public static Map<String, Object> getJsonToMap(String jsonStr) {

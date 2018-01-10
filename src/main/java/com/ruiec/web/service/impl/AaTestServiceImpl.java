@@ -38,7 +38,6 @@ import com.ruiec.web.service.AaTestService;
 /**
  * 测试服务实现类
  * 
- * @author bingo<br>
  * @date 2017年12月19日 上午9:41:49
  */
 @Service
@@ -49,7 +48,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * 数据抓取主方法
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 上午9:49:06
 	 */
 	public int mainMethod() {
@@ -69,7 +67,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * 解压
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException
 	 * @date 2017年12月19日 上午9:49:47
 	 */
@@ -102,7 +99,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * TAR文件解压
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 下午8:36:28
 	 */
 	@Test
@@ -141,7 +137,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * ZIP文件解压
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 下午8:35:58
 	 */
 	@Test
@@ -182,7 +177,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * ZIP文件解压
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 下午8:35:58
 	 */
 	@Test
@@ -221,7 +215,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * RAR文件解压
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 下午9:58:58
 	 */
 	@Test
@@ -256,7 +249,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * CSV数据解析
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 上午9:54:21
 	 */
 	@Test
@@ -275,7 +267,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * Excel数据解析
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月20日 下午4:30:42
 	 */
 	@Test
@@ -305,7 +296,6 @@ public class AaTestServiceImpl implements AaTestService {
 	/**
 	 * 数据插入数据库
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 上午9:50:57
 	 */
 	public void insertAll() {

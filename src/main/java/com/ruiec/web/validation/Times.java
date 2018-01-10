@@ -13,7 +13,6 @@ import javax.validation.Payload;
  * 
  * 
  * 倍率验证器注解
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年3月21日
  */
@@ -27,7 +26,6 @@ public @interface Times {
     Class<? extends Payload>[] payload() default {};
     /**
      * 倍数基数
-     * @author 肖学良<br>
      * Date: 2015年3月23日
      */
     int basic();

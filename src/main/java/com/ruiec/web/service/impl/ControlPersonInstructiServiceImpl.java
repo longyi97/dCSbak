@@ -34,7 +34,6 @@ import com.ruiec.web.service.UserUnitService;
 
 /**
  * 重点人员预警指令服务接口实现类
- * @author Senghor<br>
  * @date 2017年11月30日 上午9:01:37
  */
 @Repository("controlPersonInstructiServiceImpl")
@@ -50,7 +49,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 	private UnitService unitService;
 	/**
 	 * 预警下发
-	 * @author qinzhitian<br>
 	 * @date 2017年12月8日 下午4:23:33
 	 */
 	@SuppressWarnings("unchecked")
@@ -125,7 +123,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 
 	/**
 	 * 预警指令反馈
-	 * @author qinzhitian<br>
 	 * @date 2017年12月9日 下午4:54:20
 	 */
 	@Override
@@ -159,7 +156,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 
 	/**
 	 * 预警反馈详情
-	 * @author qinzhitian<br>
 	 * @date 2017年12月9日 下午4:54:20
 	 */
 	@Override
@@ -197,7 +193,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 	
 	/**
 	 * 获取最后一次反馈信息
-	 * @author qinzhitian<br>
 	 * @date 2017年12月13日 上午11:19:38
 	 */
 	@Override
@@ -212,7 +207,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 	}
 	/**
 	 * 查询可下发目标
-	 * @author qinzhitian<br>
 	 * @date 2017年12月17日 下午4:14:28
 	 */
 	@Override
@@ -263,7 +257,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 
 	/**
 	 * 预警指令详情
-	 * @author 陈靖原<br>
 	 * @date 2017年12月18日 下午4:54:20
 	 */
 	@Override
@@ -279,7 +272,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 
 	/**
 	 * 签收
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午9:00:05
 	 */
 	@Override
@@ -305,7 +297,6 @@ public class ControlPersonInstructiServiceImpl extends BaseServiceImpl<ControlPe
 	
 	/**
 	 * 审核
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午9:00:05
 	 */
 	@Override

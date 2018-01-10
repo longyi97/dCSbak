@@ -50,7 +50,6 @@ import net.sf.json.JSONObject;
 /**
  * 轨迹数据抓取服务实现类
  * 
- * @author bingo<br>
  * @date 2017年12月23日 上午10:28:11
  */
 @Service
@@ -68,7 +67,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * 省厅进港数据抓取
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 上午9:49:06
 	 */
 	public void FTDataCapture(String url, String targetFile) {
@@ -196,7 +194,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * 人脸识别数据抓取
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月29日 上午10:12:15
 	 */
 	public void FRDataCapture(String url, String targetFile) {
@@ -294,7 +291,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * 下载文件
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月26日 下午2:06:05
 	 */
 	public void downloadFile(String url, String targetFile) {
@@ -308,7 +304,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * GZIP文件解压
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException
 	 * @date 2017年12月19日 上午9:49:47
 	 */
@@ -351,7 +346,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * TAR文件解压
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException 
 	 * @date 2017年12月19日 下午8:36:28
 	 */
@@ -406,7 +400,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * ZIP文件解压
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException 
 	 * @date 2017年12月19日 下午8:35:58
 	 */
@@ -468,7 +461,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * ZIP文件解压
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException
 	 * @date 2017年12月19日 下午8:35:58
 	 */
@@ -519,7 +511,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * RAR文件解压
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException
 	 * @date 2017年12月19日 下午9:58:58
 	 */
@@ -561,7 +552,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * CSV数据解析
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException
 	 * @date 2017年12月19日 上午9:54:21
 	 */
@@ -650,7 +640,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * Excel数据解析
 	 * 
-	 * @author bingo<br>
 	 * @throws IOException
 	 * @date 2017年12月20日 下午4:30:42
 	 */
@@ -686,7 +675,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * 数据插入数据库
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月19日 上午9:50:57
 	 */
 	public void insertAll(List<DynamicInfo> list) {
@@ -707,7 +695,6 @@ public class DataCaptureServiceImpl {
 	/**
 	 * 离市人员数据插入数据库
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月30日 上午9:24:12
 	 */
 	public void insertLeaveAll(List<LeavePerson> list) {

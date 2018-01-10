@@ -16,7 +16,6 @@ import com.ruiec.web.service.DictionaryService;
 
 /**
  * 字典类型初始化
- * @author 贺云<br>
  * @date 2017年12月7日 上午10:42:20
  */
 public class DictionaryInit implements ApplicationListener<ContextRefreshedEvent> {

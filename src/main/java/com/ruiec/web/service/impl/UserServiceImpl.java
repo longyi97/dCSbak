@@ -32,7 +32,6 @@ public class UserServiceImpl extends BaseServiceImpl<User, Integer> implements U
 	 * 登录
 	 * @param User
 	 * @return User
-	 * @author 陈靖原<br>
 	 * @date 2017年11月29日 下午10:50:06
 	 */
 	@Override
@@ -48,7 +47,6 @@ public class UserServiceImpl extends BaseServiceImpl<User, Integer> implements U
 
 	/**
 	 * 根据单位查询下面所面所有的警员
-	 * @author Senghor<br>
 	 * @date 2017年12月11日 上午9:59:01
 	 */
 	@Override
@@ -85,7 +83,6 @@ public class UserServiceImpl extends BaseServiceImpl<User, Integer> implements U
 
 	/**
 	 * 根据姓名或者身份证查询用户姓名
-	 * @author 贺云<br>
 	 * @date 2017年12月11日 下午4:42:17
 	 */
 	@SuppressWarnings("unchecked")
@@ -112,7 +109,6 @@ public class UserServiceImpl extends BaseServiceImpl<User, Integer> implements U
 	}
 	/**
 	 * 根据登录用户获取单位数据
-	 * @author 贺云<br>
 	 * @date 2017年12月11日 下午4:42:17
 	 */
 	@Override

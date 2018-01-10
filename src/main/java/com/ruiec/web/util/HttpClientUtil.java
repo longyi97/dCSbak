@@ -17,7 +17,6 @@ import org.apache.commons.httpclient.params.HttpMethodParams;
 /**
  * HttpClient工具类
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2016年3月28日
  */

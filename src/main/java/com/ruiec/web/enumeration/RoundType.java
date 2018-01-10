@@ -3,7 +3,6 @@ package com.ruiec.web.enumeration;
  * 
  * 
  * 四舍五入枚举
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月21日
  */

@@ -6,7 +6,6 @@ import com.ruiec.web.entity.Unit;
 
 /**
  * 单位编码数据工具类
- * @author Senghor<br>
  * @date 2017年12月7日 下午2:54:28
  */
 public class UnitCodeUtil {
@@ -27,7 +26,6 @@ public class UnitCodeUtil {
 	/**
 	 * 根据单位编码获取单位实体
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月26日 上午9:39:17
 	 */
 	public static Unit matchUnit(String unitCode) {
@@ -45,7 +43,6 @@ public class UnitCodeUtil {
 	/**
 	 * 根据单位编码获取单位实体
 	 * 
-	 * @author bingo<br>
 	 * @date 2017年12月26日 上午9:39:17
 	 */
 	public static Unit matchUnit(String unitCode, String defaulUnitCode) {

@@ -10,7 +10,6 @@ import org.apache.commons.lang3.time.DateUtils;
  * 
  * 
  * 日期转换器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月24日
  */

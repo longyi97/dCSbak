@@ -15,7 +15,6 @@ import com.ruiec.web.util.SettingUtils;
 /**
  * 中国网建短信服务接口
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2016年3月29日
  */
@@ -31,7 +30,6 @@ public class SendMsgService {
 	 * @param smsMob 目标手机号
 	 * @param smsText 短信内容
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean sendMsg(String url, String uid, String key, String smsMob, String smsText) {
 		
@@ -92,7 +90,6 @@ public class SendMsgService {
 	 * @param smsMob 目标手机号
 	 * @param smsText 短信内容
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean sendMsg(String smsMob, String smsText) {
 		String url = SettingUtils.get().getSmsUrl();
@@ -106,7 +103,6 @@ public class SendMsgService {
 	 * @param smsMobs 目标手机号
 	 * @param smsText 短信内容
 	 * @return
-	 * @author 熊华松
 	 */
 	public static boolean sendMsg(List<String> smsMobs, String smsText) {
 		if (smsMobs.size() > 100) {

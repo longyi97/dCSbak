@@ -9,7 +9,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 流工具类
- * @author 刘立雯
  * Date：2016年09月20日
  */
 public class StreamsUtils {

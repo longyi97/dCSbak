@@ -5,7 +5,6 @@ import java.util.Date;
 
 /**
  * 预警查询条件实体
- * @author 陈靖原<br>
  * @date 2017年12月22日 上午9:24:55
  */
 public class AlarmDTO implements Serializable{

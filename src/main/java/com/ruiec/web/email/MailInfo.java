@@ -9,7 +9,6 @@ import com.ruiec.web.util.SettingUtils;
 /**
  * 发送邮件需要使用的基本信息
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2016年3月29日
  */

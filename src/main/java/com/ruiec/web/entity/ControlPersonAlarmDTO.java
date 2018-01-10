@@ -2,7 +2,6 @@ package com.ruiec.web.entity;
 
 /**
  * 预警级别实体
- * @author 陈靖原<br>
  * @date 2017年12月22日 上午9:24:36
  */
 public class ControlPersonAlarmDTO {

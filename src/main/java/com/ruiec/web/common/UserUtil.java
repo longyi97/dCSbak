@@ -6,7 +6,6 @@ import com.ruiec.web.entity.User;
 
 /**
  * 民族数据工具类
- * @author 熊华松
  * Date：2017年09月29日
  */
 public class UserUtil {

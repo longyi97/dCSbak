@@ -6,33 +6,28 @@ import com.ruiec.web.entity.Db;
 
 /**
  * 数据源服务接口
- * @author qinzhitian<br>
  * @date 2017年12月18日 下午4:47:35
  */
 public interface DbService extends BaseService<Db, Integer> {
 	/**
 	 * 保存数据源
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午5:46:15
 	 */
 	public JsonReturn saveDb(Db db);
 	
 	/**
 	 * 修改数据源
-	 * @author qinzhitian<br>
 	 * @date 2017年12月18日 下午5:46:15
 	 */
 	public JsonReturn updateDb(Db db);
 	
 	/**
 	 * 数据导入（库）
-	 * @author qinzhitian<br>
 	 * @date 2017年12月20日 上午11:04:21
 	 */
 	public JsonReturn dataImport(Integer id);
 	/**
 	 * 数据导入（表）
-	 * @author qinzhitian<br>
 	 * @date 2017年12月20日 上午11:04:21
 	 */
 	public JsonReturn tableImport(Integer id);

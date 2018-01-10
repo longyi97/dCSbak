@@ -7,7 +7,6 @@ import com.ruiec.web.enumeration.UnitRank;
 
 /**
  * 登录用户管理单位实体
- * @author Senghor<br>
  * @date 2017年12月18日 下午3:29:40
  */
 public class LoginUserUnit implements Serializable{

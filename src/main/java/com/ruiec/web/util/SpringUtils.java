@@ -14,7 +14,6 @@ import org.springframework.web.context.ServletContextAware;
  * 
  * 
  * spring获取bean工具
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月24日
  */

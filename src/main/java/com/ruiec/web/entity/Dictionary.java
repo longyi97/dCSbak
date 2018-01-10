@@ -14,7 +14,6 @@ import com.ruiec.framework.server.support.entity.BaseEntity;
 
 /**
  * 数据字典类型数据
- * @author Senghor<br>
  * @date 2017年11月28日 下午3:54:37
  */
 @Entity

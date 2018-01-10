@@ -10,7 +10,6 @@ import com.ruiec.web.service.NoticeService;
 
 /**
  * 公告服务接口实现类
- * @author yuankai<br>
  * Date: 2017年11月29日
  */
 @Service

@@ -13,7 +13,6 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 /**
  * 简单邮件（不带附件的邮件）发送器
  * 
- * @author 熊华松<br>
  * Version 1.0<br>
  * Date: 2016年3月29日
  */

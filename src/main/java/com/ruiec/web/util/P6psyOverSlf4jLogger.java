@@ -10,7 +10,6 @@ import com.p6spy.engine.spy.appender.Slf4JLogger;
 /**
  * 自定义SQL输出格式
  * 
- * @author bingo<br>
  * @date 2018年1月5日 下午5:52:13
  */
 public class P6psyOverSlf4jLogger extends Slf4JLogger {
@@ -44,7 +43,6 @@ public class P6psyOverSlf4jLogger extends Slf4JLogger {
 	/**
 	 * 重写输出方法
 	 * 
-	 * @author bingo<br>
 	 * @date 2018年1月6日 上午9:31:55
 	 */
 	@Override

@@ -7,7 +7,6 @@ import com.ruiec.web.entity.Banner;
 import com.ruiec.web.service.BannerService;
 /**
  * 登录背景图片服务类
- * @author yuankai
  * Date 2017-12-02
  * */
 @Service("bannerServiceImpl")

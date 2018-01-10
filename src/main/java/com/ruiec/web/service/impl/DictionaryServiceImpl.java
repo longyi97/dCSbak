@@ -29,7 +29,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 
 	/**
 	 * 修改字典数据默认状态
-	 * @author qinzhitian<br>
 	 * @date 2017年12月2日 上午9:49:17
 	 */
 	@Override
@@ -49,7 +48,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 
 	/**
 	 * 根据字典类型查询所有字典数据
-	 * @author qinzhitian<br>
 	 * @date 2017年12月6日 下午3:36:53
 	 */
 	@Override
@@ -71,7 +69,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	
 	/**
 	 * 查询所有字典数据id
-	 * @author qinzhitian<br>
 	 * @date 2017年12月6日 下午3:36:53
 	 */
 	@Override
@@ -90,7 +87,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	/**
 	 * 根据字典类型id及父级id查询所有字典数据<br>
 	 * parentId为0则查询第一级数据，为null则查询所有
-	 * @author qinzhitian<br>
 	 * @date 2017年12月6日 下午3:36:53
 	 */
 	@Override
@@ -123,7 +119,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	/**
 	 * 根据字典类型名字及父级id查询所有字典数据<br>
 	 * parentId为0则查询第一级数据，为null则查询所有
-	 * @author qinzhitian<br>
 	 * @date 2017年12月6日 下午3:36:53
 	 */
 	@Override
@@ -156,7 +151,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	/**
 	 * 根据字典类型别名和父级id查询字典数据<br>
 	 * parentId为0则查询第一级数据，为null则查询所有
-	 * @author qinzhitian<br>
 	 * @date 2017年12月6日 下午3:36:53
 	 */
 	@Override
@@ -188,7 +182,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 
 	/**
 	 * 根据父级id字典数据子集
-	 * @author qinzhitian<br>
 	 * @date 2017年12月6日 下午3:36:53
 	 */
 	@Override
@@ -226,7 +219,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	
 	/**
 	 * 删除字典数据
-	 * @author qinzhitian<br>
 	 * @date 2017年12月13日 下午3:10:56
 	 */
 	@SuppressWarnings("unchecked")
@@ -265,7 +257,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	}
 	/**
 	 * 删除单条字典数据
-	 * @author qinzhitian<br>
 	 * @date 2017年12月13日 下午3:10:56
 	 */
 	//@Override
@@ -291,7 +282,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	}
 	/**
 	 * 根据人员类别获取子孙级
-	 * @author Senghor<br>
 	 * @date 2017年12月9日 上午10:45:06
 	 */
 	@SuppressWarnings("unchecked")
@@ -320,7 +310,6 @@ public class DictionaryServiceImpl extends BaseServiceImpl<Dictionary, Integer> 
 	
 	/**
 	 * 查询字典数据是否包含子集
-	 * @author qinzhitian<br>
 	 * @date 2017年12月14日 上午9:46:55
 	 */
 	@Transactional

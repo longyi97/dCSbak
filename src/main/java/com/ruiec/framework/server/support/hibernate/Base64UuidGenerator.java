@@ -10,7 +10,6 @@ import org.hibernate.engine.spi.SessionImplementor;
 import org.hibernate.id.IdentifierGenerator;
 /**
  * 22位uuid生成器
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月24日
  */

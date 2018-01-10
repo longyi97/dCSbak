@@ -16,7 +16,6 @@ import com.ruiec.web.service.UnitService;
 
 /**
  * 部门初始化
- * @author 贺云<br>
  * @date 2017年12月7日 上午10:42:20
  */
 public class UnitInit implements ApplicationListener<ContextRefreshedEvent> {

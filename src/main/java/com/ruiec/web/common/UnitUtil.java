@@ -6,7 +6,6 @@ import com.ruiec.web.entity.Unit;
 
 /**
  * 单位数据工具类
- * @author Senghor<br>
  * @date 2017年12月7日 下午2:54:28
  */
 public class UnitUtil {

@@ -4,7 +4,6 @@ package com.ruiec.framework.server.support.query;
 import java.io.Serializable;
 /**
  * 数据修改封装类
- * @author 肖学良<br>
  * Version: 1.0<br>
  * Date: 2015年12月25日
  */
@@ -35,7 +34,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 获取set组装类
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public static SetBuilder build(){
@@ -44,7 +42,6 @@ public class Set implements Serializable {
 	
 	/**
 	 * 获取单值类型的set对象
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public static Set single(String name, Object value){
@@ -52,7 +49,6 @@ public class Set implements Serializable {
 	}
 	/**
 	 * 获取单值类型的set对象
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public static Set single(String name, String nameAlias, Object value){
@@ -60,7 +56,6 @@ public class Set implements Serializable {
 	}
 	/**
 	 * 获取多值类型的set对象
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public static Set list(String name, Object value){
@@ -69,7 +64,6 @@ public class Set implements Serializable {
 	
 	/**
 	 * 获取多值类型的set对象
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public static Set list(String name, String nameAlias, Object[] value){
@@ -81,7 +75,6 @@ public class Set implements Serializable {
 	 * 
 	 * 
 	 * 更新值类型枚举
-	 * @author 肖学良<br>
 	 * Version: 1.0<br>
 	 * Date: 2015年12月25日
 	 */
@@ -107,7 +100,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 获取更新字段
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public String getName() {
@@ -116,7 +108,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 设置更新字段
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public void setName(String name) {
@@ -125,7 +116,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 更新字段别名（避免与过滤中的占位名同名冲突）
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public String getNameAlias() {
@@ -134,7 +124,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 更新字段别名（避免与过滤中的占位名同名冲突）
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public void setNameAlias(String nameAlias) {
@@ -143,7 +132,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 获取更新值
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public Object getValue() {
@@ -152,7 +140,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 设置更新值
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public void setValue(Object value) {
@@ -161,7 +148,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 获取更新值类型
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public Type getType() {
@@ -170,7 +156,6 @@ public class Set implements Serializable {
 
 	/**
 	 * 获取更新值类型
-	 * @author 肖学良<br>
 	 * Date: 2015年12月25日
 	 */
 	public void setType(Type type) {

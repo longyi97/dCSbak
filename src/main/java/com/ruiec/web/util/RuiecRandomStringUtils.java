@@ -4,14 +4,12 @@ import java.util.Random;
 
 /**
  * 随机数工具类
- * @author 刘立雯
  * Date：2016年09月19日
  */
 public class RuiecRandomStringUtils {
 	
 	/**
 	 * 获取随机字符串
-	 * @author 刘立雯
 	 * @param type 类型（0：纯阿拉伯数字；1：小写字母+大写字母+阿拉伯数字）
 	 * @param length 字符串长度
 	 * 
